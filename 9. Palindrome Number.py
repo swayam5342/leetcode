@@ -11,6 +11,6 @@ def isPalindrome(x: int) -> bool:
     return True
 
 
-x = [10,121,-121]
-for i in x:
+test = [10,121,-121]
+for i in test:
     print(isPalindrome(i))

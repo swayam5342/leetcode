@@ -13,6 +13,6 @@ def longestCommonPrefix(strs: list[str]) -> str:
     return  strs[0][:i]
 
 
-n :list[list[str]] = [["flower","flow","flight"],["dog","racecar","car"],["flower"]]
-for i in n:
+test :list[list[str]] = [["flower","flow","flight"],["dog","racecar","car"],["flower"]]
+for i in test:
     print(longestCommonPrefix(i))
